@@ -54,7 +54,7 @@ function results = linearTDRL_DA(X,r,W,alpha,opto,optotype)
             
             case 'none'
                 dt = r(n) + (gamma*X(n,:) - X(n - 1,:))*W;
-                %dt = r(n + 1) + (gamma*X(n + 1,:) - X(n,:))*W;
+                
             case 'tonic'
                 dt = (1 + opto(n))*(r(n) + (gamma*X(n,:) - X(n - 1,:))*W);
                 
