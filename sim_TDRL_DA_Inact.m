@@ -384,7 +384,7 @@ function Stage = stagenum(S)
 end
 
 function out = randTrials(n,varargin)
-% This function randomizes presentations of stimuli for the linearTDSR function
+% This function randomizes presentations of stimuli for the sim_TDRL function
 
 %INPUTS:
 %n is the number of presentations for each stimulus sequence
